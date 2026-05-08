@@ -60,7 +60,7 @@ export default async function RightSidebar() {
       {/* Search */}
       <section className="widget">
         <div className="widget-title">
-          <SearchIcon />
+          <div className="widget-icon"><SearchIcon /></div>
           Search
         </div>
         <form action="/search" method="GET">
@@ -78,7 +78,7 @@ export default async function RightSidebar() {
       {archives.length > 0 && (
         <section className="widget">
           <div className="widget-title">
-            <ArchiveIcon />
+            <div className="widget-icon"><ArchiveIcon /></div>
             Archives
           </div>
           <div className="widget-archive-list">
@@ -96,7 +96,7 @@ export default async function RightSidebar() {
       {categories.length > 0 && (
         <section className="widget">
           <div className="widget-title">
-            <CategoryIcon />
+            <div className="widget-icon"><CategoryIcon /></div>
             Categories
           </div>
           <div className="widget-tags">
@@ -118,7 +118,7 @@ export default async function RightSidebar() {
       {tags.length > 0 && (
         <section className="widget">
           <div className="widget-title">
-            <TagIcon />
+            <div className="widget-icon"><TagIcon /></div>
             Tags
           </div>
           <div className="widget-tags">

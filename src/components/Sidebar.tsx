@@ -72,6 +72,28 @@ const NAV = [
     ),
   },
   {
+    href: "/search",
+    label: "Search",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <circle cx="10" cy="10" r="7" />
+        <line x1="21" y1="21" x2="15" y2="15" />
+      </svg>
+    ),
+  },
+  {
+    href: "/links",
+    label: "Links",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0 -7.07 -7.07l-1.72 1.71" />
+        <path d="M14 11a5 5 0 0 0 -7.54 -.54l-3 3a5 5 0 0 0 7.07 7.07l1.71 -1.71" />
+      </svg>
+    ),
+  },
+  {
     href: "/contact",
     label: "Contact",
     icon: (
